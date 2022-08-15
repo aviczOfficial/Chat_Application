@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="UserLoginCT" prefHeight="507.0" prefWidth="373.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.UserLoginFormController">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="384.0" layoutX="-11.0" layoutY="-71.0" nodeOrientation="RIGHT_TO_LEFT">
+         <image>
+            <Image url="@../../../../recording/ChatApp/src/asserts/pnghut_light-gradient-refraction-purple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="247.0" fitWidth="341.0" layoutX="-235.0" layoutY="288.0" opacity="0.38">
+         <image>
+            <Image url="@../../../../recording/ChatApp/src/asserts/imgbin_gradient-portable-network-graphics-euclidean-liquid-graphics-png.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="247.0" fitWidth="341.0" layoutX="-190.0" layoutY="-14.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.58">
+         <image>
+            <Image url="@../../../../recording/ChatApp/src/asserts/imgbin_gradient-portable-network-graphics-euclidean-liquid-graphics-png.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="120.0" fitWidth="123.0" layoutX="125.0" layoutY="104.0">
+         <image>
+            <Image url="@../../../../recording/ChatApp/src/asserts/41330_user_purple_icon.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btLog" buttonType="RAISED" layoutX="131.0" layoutY="381.0" onAction="#btnLogin" prefHeight="45.0" prefWidth="112.0" style="-fx-background-color: #3f073b;" text="LOGIN" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <TextField fx:id="txtUsrNm" layoutX="69.0" layoutY="282.0" prefHeight="45.0" prefWidth="236.0" promptText="User Name" />
+   </children>
+</AnchorPane>

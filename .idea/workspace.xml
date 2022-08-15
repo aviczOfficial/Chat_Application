@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56c6e064-b41e-4805-b1ba-15694a89b730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Server/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/ChatRoomForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/ChatRoomForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/UserLoginForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/UserLoginForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/ChatRoomFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/ChatRoomFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/UserLoginFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserLoginFormController.java" afterDir="false" />
@@ -21,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaFXApplication" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JavaFXApplication" />
       </list>
     </option>
   </component>
@@ -42,10 +39,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/jfoenix-8.0.8.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppInitializer" />
+      <module name="ChatApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitializer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -57,7 +68,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660544895745</updated>
-      <workItem from="1660544898683" duration="8934000" />
+      <workItem from="1660544898683" duration="10142000" />
+      <workItem from="1660591727177" duration="3453000" />
     </task>
     <servers />
   </component>
@@ -73,6 +85,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="432" y="113" key="FileChooserDialogImpl/0.0.1536.864/0.-1080.1536.864@0.0.1536.864" timestamp="1660570802932" />
+    <state width="1481" height="3" key="GridCell.Tab.0.bottom" timestamp="1660596985030">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="3" key="GridCell.Tab.0.bottom/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1660596985030" />
+    <state width="1481" height="3" key="GridCell.Tab.0.center" timestamp="1660596985030">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="3" key="GridCell.Tab.0.center/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1660596985030" />
+    <state width="1481" height="3" key="GridCell.Tab.0.left" timestamp="1660596985029">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="3" key="GridCell.Tab.0.left/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1660596985029" />
+    <state width="1481" height="3" key="GridCell.Tab.0.right" timestamp="1660596985030">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1481" height="3" key="GridCell.Tab.0.right/0.0.1536.864/251.-768.1366.768@0.0.1536.864" timestamp="1660596985030" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1660570806800">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
