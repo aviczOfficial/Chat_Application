@@ -38,7 +38,7 @@
       </JFXButton>
       <JFXTextField fx:id="txtMsg" focusColor="WHITE" layoutX="90.0" layoutY="602.0" prefHeight="39.0" prefWidth="315.0" promptText="Message" unFocusColor="WHITE" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2e0249" height="77.0" layoutY="583.0" stroke="#2e0249" strokeType="INSIDE" width="78.0" />
-      <ImageView fx:id="cameraIcn" fitHeight="39.0" fitWidth="46.0" layoutX="16.0" layoutY="598.0">
+      <ImageView fx:id="cameraIcn" fitHeight="39.0" fitWidth="46.0" layoutX="16.0" layoutY="598.0" onDragDetected="#cameraIcnonAction">
          <image>
             <Image url="@../asserts/pngkey.com-camera-icon-png-104955.png" />
          </image>

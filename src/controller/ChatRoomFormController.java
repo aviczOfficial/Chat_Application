@@ -39,8 +39,8 @@ public class ChatRoomFormController extends Thread{
         String userName=UserLoginFormController.userName;
         lblUsr.setText(String.valueOf(userName));
         try {
-            socket = new Socket("localhost", 5001);
-            System.out.println("Socket is connected with server!");
+            socket = new Socket("localhost", 3001);
+            System.out.println("Socket connected");
             reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             writer = new PrintWriter(socket.getOutputStream(), true);
 
@@ -182,13 +182,14 @@ public class ChatRoomFormController extends Thread{
 
 
     }
-    public void Camera_On_Mouse_Clicked(MouseEvent mouseEvent) throws IOException {
+
+
+
+    public void cameraIcnonAction(MouseEvent mouseEvent) {
         Stage stage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
         fileChooser = new FileChooser();
         fileChooser.setTitle("Open Image");
         this.filePath = fileChooser.showOpenDialog(stage);
         writer.println(lblUsr.getText() + " " + "img" + filePath.getPath());
     }
-
-
 }

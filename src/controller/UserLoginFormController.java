@@ -25,7 +25,7 @@ public class UserLoginFormController {
         Stage stage1=new Stage();
         stage1.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/ChatRoomForm.fxml"))));
         stage1.setResizable(false);
-        stage1.setTitle("Group Chat Application");
+        stage1.setTitle("Chat Application");
         stage1.centerOnScreen();
         stage1.show();
 
